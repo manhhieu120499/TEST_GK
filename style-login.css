@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.header {
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.header .search {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+.search .search_input {
+    border: none;
+    width: 320px;
+   
+   background-color: #ccc;
+   border-right: 1px solid black;
+}
+
+.search .search_input:focus {
+    outline: none;
+}
+
+.header .source {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.836);
+    width: 170px;
+    height: 35px;
+    border-radius: 10px;
+
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.header .sign-in {
+    width: 170px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.nab-bar {
+    width: 100%;
+    background-color: black;
+   
+}
+
+.nav-container {
+    width: 90%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.nab-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nab-bar a:hover {
+    color: red;
+}
+
+/*login*/
+.login {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    margin: 44px auto;
+    text-align: center;
+}
+
+.browser a {
+    text-decoration: none;
+    color: black;
+}
+
+.login h2 {
+    color: gray;
+    margin: 10px;
+}
+
+.login .google {
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.login .apple {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    border: 1px solid #333;
+}
+
+.login .google a {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    line-height: 40px;  
+    
+}
+
+
+.login .google svg
+ {
+    margin-right: 10px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    --text-divder-gap: 1rem;
+    opacity: 0.5;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.text::before, .text::after {
+    content: "";
+    height: 1px;
+    background-color: #333;
+    flex-grow: 1;
+}
+
+.text::before {
+    margin-right: var(--text-divder-gap);
+}
+.text::after {
+    margin-left: var(--text-divder-gap);
+}
+
+.form-login {
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.form-login input {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    opacity: 0.7;
+}
+
+
+.form-login button {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px 5px;
+    background-color: rgba(255, 0, 0, 0.704);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-login .link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-login .link > a {
+    color: darkcyan;
+}
+
+/*footer*/
+.footer {
+    background-color: rgba(0, 0, 255, 0.715);
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+}
+
+
+.footer p {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.footer .container {
+    width: 60%;
+    height: 80px;
+    margin: 10px auto;
+
+}
